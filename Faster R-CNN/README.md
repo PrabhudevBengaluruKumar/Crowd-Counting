@@ -38,4 +38,5 @@ This folder contains the code of for crowd counting performed on JHU dataset, ma
 
 ## Dataset References
 [1] Cumulative Attribute Space for Age and Crowd Density EstimationK. Chen, S. Gong, T. Xiang, and C. C. Loyin Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, 2013.
+
 [2] V. Sindagi, R. Yasarla and V. Patel, "Pushing the Frontiers of Unconstrained Crowd Counting: New Dataset and Benchmark Method," 2019 IEEE/CVF International Conference on Computer Vision (ICCV), 2019, pp. 1221-1231, doi: 10.1109/ICCV.2019.00131.
