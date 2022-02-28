@@ -30,7 +30,7 @@ Two datasets are used in this experiment namely, Mall dataset and JHU-Crowd++ da
 - 480x640 pixels
 - 2000 images
 - Min 15 persons - max 53 persons per image
-
+- [Mall datasat](https://personal.ie.cuhk.edu.hk/~ccloy/downloads_mall_dataset.html)
 Reference: Loy, Chen Change, et al. "Crowd counting and profiling: Methodology and evaluation." Modeling, simulation and visual analysis of crowds. Springer, New York, NY, 2013. 347-382.
 
 2. JHU-CROWD++ dataset
@@ -38,7 +38,7 @@ Reference: Loy, Chen Change, et al. "Crowd counting and profiling: Methodology a
 - 4,372 images
 - Rich set of annotations
 - Min 50 persons - max 25791 persons per image
-
+- [JHU-Crowd++ dataset](http://www.crowd-counting.com/)
 Reference: V. A. Sindagi, R. Yasarla, en V. M. Patel, “JHU-CROWD++: Large-Scale Crowd Counting Dataset and A Benchmark Method”, Technical Report, 2020.
 
 
