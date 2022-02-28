@@ -9,7 +9,7 @@ from .datautils import seed_worker
 
 
 class CrowdDataModule(pl.LightningDataModule):
-    """Datamodule class for JHU Crowd Dataset. Handles data loading, preprocessing, and augmentation.
+    """ Datamodule class for JHU Crowd Dataset. Handles data loading, pre-processing, and augmentation.
         Dataloaders for train, val, and test are created and returned.
     """
     
