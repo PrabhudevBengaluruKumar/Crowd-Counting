@@ -6,7 +6,7 @@ CROWD COUNTING
 
 Introduction
 
-This folder contains the code of for crowd counting performed on JHU dataset, mall dataset and sample of other images. 
+This folder contains the code of for crowd counting performed on JHU dataset, mall dataset and sample of other images with respect to Fast R-CNN. 
 
 
 
@@ -22,6 +22,7 @@ Requirements
 
 Note
 
+- Model must be downloaded and added to the "/data/utils/" folder. Link of the model: 
 - main_jhu.py and main_jhu.sh contains code to perform crowd counting on JHU dataset.
 - main_mall.py and main_mall.sh contains code to perform crowd counting on Mall dataset.
 - main_sample.py and main_sample.sh contains code to perform crowd counting on sample images.
