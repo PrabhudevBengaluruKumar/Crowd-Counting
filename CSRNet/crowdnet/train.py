@@ -16,7 +16,7 @@ from model import CSRNet
 
 
 class LitCrowdNet(pl.LightningModule):
-    """ pytroch lightning class to handle training, validaiton and testing loops
+    """ pytorch lightning class to handle training, validaiton and testing loops
     """
 
     def __init__(self) -> None:
