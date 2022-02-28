@@ -23,6 +23,9 @@ Requirements
 Note
 
 - Model must be downloaded and added to the "/data/utils/" folder. Link of the model: [Model link](https://drive.google.com/drive/folders/14YzYPYbhV8tCwbYUa3LwTvGBtmq3Z_0d?usp=sharing)
+- Datasets needs to be downloaded and added to their respective folders to "/data/images/" folder
+  - [Mall datasat](https://personal.ie.cuhk.edu.hk/~ccloy/downloads_mall_dataset.html)
+  - [JHU-Crowd++ dataset](http://www.crowd-counting.com/)
 - main_jhu.py and main_jhu.sh contains code to perform crowd counting on JHU dataset.
 - main_mall.py and main_mall.sh contains code to perform crowd counting on Mall dataset.
 - main_sample.py and main_sample.sh contains code to perform crowd counting on sample images.
