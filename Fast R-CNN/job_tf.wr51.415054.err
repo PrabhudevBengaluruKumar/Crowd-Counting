@@ -1,0 +1,113 @@
+2022-02-28 04:13:24.233175: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+WARNING:tensorflow:From /home/pbenga2s/anaconda3/envs/RnD/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2022-02-28 04:13:28.770134: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/pbenga2s/anaconda3/envs/RnD/lib/python3.7/site-packages/cv2/../../lib64:/usr/local/cuda-11.2/lib64:/usr/local/slurm/slurm-19.05.5/lib:/usr/local/slurm/slurm-19.05.5/lib/slurm:/usr/local/lib:
+2022-02-28 04:13:28.770189: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2022-02-28 04:13:28.770211: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (wr51): /proc/driver/nvidia/version does not exist
+2022-02-28 04:13:28.770452: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+|                              | ETA:  --:--:-- |                             |
+2022-02-28 04:13:28.856009: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2100000000 Hz
+|                         | ETA:  123 days, 2:25:08 |                         |
+|                         | ETA:  75 days, 19:54:08 |                         |
+|                          | ETA:  60 days, 4:21:21 |                         |
+|                         | ETA:  51 days, 21:41:18 |                         |
+|                         | ETA:  51 days, 11:53:15 |                         |
+|                          | ETA:  47 days, 0:00:07 |                         |
+|                         | ETA:  44 days, 16:40:15 |                         |
+|                          | ETA:  42 days, 3:11:08 |                         |
+|                          | ETA:  40 days, 3:55:10 |                         |
+|                         | ETA:  38 days, 15:56:57 |                         |
+|                         | ETA:  37 days, 11:37:03 |                         |
+|                         | ETA:  36 days, 10:00:59 |                         |
+|                         | ETA:  36 days, 11:44:29 |                         |
+|                         | ETA:  35 days, 16:18:27 |                         |
+|                         | ETA:  35 days, 21:37:21 |                         |
+|                         | ETA:  35 days, 13:08:37 |                         |
+|                         | ETA:  35 days, 10:26:48 |                         |
+|                          | ETA:  36 days, 9:16:46 |                         |
+|                          | ETA:  36 days, 1:41:10 |                         |
+|                         | ETA:  35 days, 19:00:54 |                         |
+|                          | ETA:  35 days, 9:55:58 |                         |
+|                          | ETA:  35 days, 3:34:01 |                         |
+|                         | ETA:  34 days, 21:02:00 |                         |
+|                         | ETA:  34 days, 23:13:41 |                         |
+|                         | ETA:  34 days, 14:55:37 |                         |
+|                          | ETA:  34 days, 6:40:18 |                         |
+|                         | ETA:  33 days, 21:17:50 |                         |
+|                         | ETA:  33 days, 15:36:58 |                         |
+|                          | ETA:  33 days, 7:49:05 |                         |
+|                          | ETA:  33 days, 1:26:39 |                         |
+|                         | ETA:  32 days, 18:37:55 |                         |
+|                         | ETA:  32 days, 15:09:15 |                         |
+|                         | ETA:  32 days, 15:36:58 |                         |
+|                         | ETA:  32 days, 10:02:32 |                         |
+|                          | ETA:  32 days, 6:59:07 |                         |
+|                          | ETA:  32 days, 4:09:39 |                         |
+|                         | ETA:  32 days, 17:20:07 |                         |
+|                         | ETA:  32 days, 12:51:10 |                         |
+|                          | ETA:  32 days, 7:31:52 |                         |
+|                          | ETA:  32 days, 3:44:29 |                         |
+|                         | ETA:  31 days, 23:07:47 |                         |
+|                         | ETA:  31 days, 20:24:00 |                         |
+|                         | ETA:  31 days, 17:59:34 |                         |
+|                         | ETA:  31 days, 14:21:25 |                         |
+|                         | ETA:  31 days, 10:24:31 |                         |
+|                         | ETA:  31 days, 11:18:50 |                         |
+|                          | ETA:  31 days, 9:29:51 |                         |
+|                          | ETA:  31 days, 8:29:50 |                         |
+|                          | ETA:  31 days, 7:32:25 |                         |
+|                          | ETA:  31 days, 9:18:13 |                         |
+|                          | ETA:  31 days, 7:36:00 |                         |
+|                          | ETA:  31 days, 4:44:44 |                         |
+|                          | ETA:  31 days, 2:14:08 |                         |
+|                         | ETA:  30 days, 23:10:39 |                         |
+|                         | ETA:  30 days, 19:56:18 |                         |
+|                         | ETA:  30 days, 18:22:17 |                         |
+|                         | ETA:  30 days, 15:34:11 |                         |
+|                         | ETA:  30 days, 13:16:17 |                         |
+|                         | ETA:  30 days, 10:54:19 |                         |
+|                          | ETA:  30 days, 8:19:47 |                         |
+|                          | ETA:  30 days, 7:04:36 |                         |
+|                          | ETA:  30 days, 4:33:19 |                         |
+|                         | ETA:  30 days, 14:34:03 |                         |
+|                         | ETA:  30 days, 13:13:52 |                         |
+|                         | ETA:  30 days, 11:56:33 |                         |
+|                         | ETA:  30 days, 11:03:50 |                         |
+|                          | ETA:  30 days, 9:51:03 |                         |
+|                          | ETA:  30 days, 9:18:17 |                         |
+|                         | ETA:  30 days, 10:57:04 |                         |
+|                         | ETA:  30 days, 10:49:33 |                         |
+|                         | ETA:  30 days, 13:42:05 |                         |
+|                         | ETA:  30 days, 12:27:11 |                         |
+|                         | ETA:  30 days, 12:43:49 |                         |
+|                         | ETA:  30 days, 13:54:36 |                         |
+|                         | ETA:  30 days, 12:47:15 |                         |
+|                         | ETA:  30 days, 11:03:31 |                         |
+|                         | ETA:  30 days, 11:10:01 |                         |
+|                         | ETA:  30 days, 10:42:25 |                         |
+|                          | ETA:  30 days, 9:55:24 |                         |
+|                         | ETA:  30 days, 13:15:54 |                         |
+|                         | ETA:  30 days, 11:46:07 |                         |
+|                         | ETA:  30 days, 10:12:46 |                         |
+|                          | ETA:  30 days, 8:57:58 |                         |
+|                          | ETA:  30 days, 6:57:26 |                         |
+|                          | ETA:  30 days, 5:25:11 |                         |
+|                          | ETA:  30 days, 4:07:04 |                         |
+|                          | ETA:  30 days, 5:21:24 |                         |
+|                          | ETA:  30 days, 6:05:23 |                         |
+|                          | ETA:  30 days, 4:01:01 |                         |
+|                          | ETA:  30 days, 4:51:33 |                         |
+|                          | ETA:  30 days, 3:33:16 |                         |
+|                          | ETA:  30 days, 2:11:48 |                         |
+|                          | ETA:  30 days, 1:18:20 |                         |
+|                          | ETA:  30 days, 1:35:04 |                         |
+|                          | ETA:  30 days, 0:18:05 |                         |
+|                         | ETA:  29 days, 23:17:06 |                         |
+|                         | ETA:  29 days, 22:06:50 |                         |
+|                         | ETA:  29 days, 21:10:15 |                         |
+|                         | ETA:  29 days, 21:20:22 |                         |
+|                         | ETA:  29 days, 20:11:16 |                         |
+|                         | ETA:  29 days, 18:52:55 |                         |
+|>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>| Time:  0:00:26 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<|
