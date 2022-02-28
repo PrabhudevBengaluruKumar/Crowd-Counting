@@ -20,7 +20,7 @@ def get_train_transform(
     input_h: int = 512,
     input_w: int = 512
 ) -> Callable[[Image.Image, np.ndarray], Tuple[Tensor, np.ndarray]]:
-    """ function to handle image transofrmaitons for training
+    """ function to handle image transformations for training
 
     Args:
         input_h (int, optional): image height. Defaults to 512.
