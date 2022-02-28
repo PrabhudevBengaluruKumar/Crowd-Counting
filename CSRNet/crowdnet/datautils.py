@@ -99,7 +99,7 @@ def generate_density_map(
     kernel_size: int = 30,
     sigma: float = 8
 ) -> np.ndarray:
-    """ fucntion to generate density map from keypoints
+    """ function to generate density map from keypoints
 
     Args:
         size (Tuple[int, int]): size of the density map
@@ -192,7 +192,7 @@ def preprocess_transform(
     mean: List[float] = [0.485, 0.456, 0.406],
     std: List[float] = [0.229, 0.224, 0.225]
 ) -> Tensor:
-    """ fucntion handles preprocessing of image by applying transforms
+    """ function handles preprocessing of image by applying transforms
 
     Args:
         img (Image.Image): image
