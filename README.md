@@ -60,41 +60,40 @@ python -m crowdnet.predict --model-path MODEL_PATH --img-path IMAGE_PATH
 
 # References
 
-[1] Reza Bahmanyar, Elenora Vig, Peter Reinartz.2019. MRCNet: Crowd Counting and Density Map Estimation in Aerial and Ground Imagery.\url{https://arxiv.org/pdf/1909.12743.pdf}\\
+[1] [Reza Bahmanyar, Elenora Vig, Peter Reinartz.2019. MRCNet: Crowd Counting and Density Map Estimation in Aerial and Ground Imagery.](https://arxiv.org/pdf/1909.12743.pdf)
 
-[2] Yingying Zhang, Desen Zhou, Siqin Chen, Shenghua Gao, Yi Ma.2016.Single-Image Crowd Counting via Multi-Column Convolutional Neural Network.\url{https://zpascal.net/cvpr2016/Zhang_Single-Image_Crowd_Counting_CVPR_2016_paper.pdf}\\
+[2] [Yingying Zhang, Desen Zhou, Siqin Chen, Shenghua Gao, Yi Ma.2016.Single-Image Crowd Counting via Multi-Column Convolutional Neural Network.](https://zpascal.net/cvpr2016/Zhang_Single-Image_Crowd_Counting_CVPR_2016_paper.pdf)
 
-[3] Martin Ester, Hans-Peter Kriegel, Jiirg Sander, Xiaowei Xu.1996.A Density-Based Algorithm for Discovering Clusters
-in Large Spatial Databases with Noise.\url{https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf}\\
+[3] [Martin Ester, Hans-Peter Kriegel, Jiirg Sander, Xiaowei Xu.1996.A Density-Based Algorithm for Discovering Clusters
+in Large Spatial Databases with Noise.](https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf)
 
-[4] Di Kang, Zheng Ma.2018.Beyond Counting: Comparisons of Density Maps for Crowd
-Analysis Tasks - Counting, Detection, and Tracking.\url{http://visal.cs.cityu.edu.hk/static/pubs/journal/tcsvt18-denscnn.pdf}\\
+[4] [Di Kang, Zheng Ma.2018.Beyond Counting: Comparisons of Density Maps for Crowd
+Analysis Tasks - Counting, Detection, and Tracking.](http://visal.cs.cityu.edu.hk/static/pubs/journal/tcsvt18-denscnn.pdf)
 
-[5] Peiyun Hu, Deva Ramanan. Finding Tiny Faces. \url{https://arxiv.org/abs/1612.04402}\\
+[5] [Peiyun Hu, Deva Ramanan. Finding Tiny Faces.](https://arxiv.org/abs/1612.04402)
 
-[6] Richard Dosselmann, Xue Dong Yang. A comprehensive assessment of the structural similarity index. \url{https://link.springer.com/content/pdf/10.1007\%2Fs11760-009-0144-1.pdf}\\
+[6] [Richard Dosselmann, Xue Dong Yang. A comprehensive assessment of the structural similarity index.](https://link.springer.com/content/pdf/10.1007\%2Fs11760-009-0144-1.pdf)
 
-[7] Karen Simonyan, Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition. \url{https://arxiv.org/abs/1409.1556}\
+[7] [Karen Simonyan, Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition.](https://arxiv.org/abs/1409.1556)
 
-[8]  P. Viola, M. J. Jones, and D. Snow. Detecting pedestrians using patterns of motion and appearance. International Journal
-of Computer Vision, 2005. \url{http://luthuli.cs.uiuc.edu/~daf/courses/AppCV/Papers-2/t61k38u53j53134.pdf}\\
+[8]  [P. Viola, M. J. Jones, and D. Snow. Detecting pedestrians using patterns of motion and appearance. International Journal
+of Computer Vision, 2005.](http://luthuli.cs.uiuc.edu/~daf/courses/AppCV/Papers-2/t61k38u53j53134.pdf)
 
-[9] V. A. Sindagi and V. M. Patel. A survey of recent advances in CNN-based single image
-crowd counting and density estimation. Pattern Recognition Letters, 2018.
-\url{https://arxiv.org/pdf/1707.01202.pdf}\\
+[9] [V. A. Sindagi and V. M. Patel. A survey of recent advances in CNN-based single image
+crowd counting and density estimation. Pattern Recognition Letters, 2018.](https://arxiv.org/pdf/1707.01202.pdf)
 
-[10] G. J. Brostow and R. Cipolla. Unsupervised bayesian detection of independent motion in crowds.IEEE, 2006.\url{http://mi.eng.cam.ac.uk/~cipolla/publications/inproceedings/2006-CVPR-Brostow-motionincrowds.pdf}\\
+[10] [G. J. Brostow and R. Cipolla. Unsupervised bayesian detection of independent motion in crowds.IEEE, 2006.](http://mi.eng.cam.ac.uk/~cipolla/publications/inproceedings/2006-CVPR-Brostow-motionincrowds.pdf)
 
-[11] Z. Lin and L. S. Davis.Shape-based human detection
-and segmentation via hierarchical part-template matching.Pattern Analysis and Machine Intelligence,2010. \url{https://www.researchgate.net/publication/262189064_Shape-Based_Human_Detection_and_Segmentation_via_Hierarchical_Part-Template_Matching}\\
+[11] [Z. Lin and L. S. Davis.Shape-based human detection
+and segmentation via hierarchical part-template matching.Pattern Analysis and Machine Intelligence,2010.](https://www.researchgate.net/publication/262189064_Shape-Based_Human_Detection_and_Segmentation_via_Hierarchical_Part-Template_Matching)
 
-[12]  M. Wang and X. Wang. Automatic adaptation of a generic
-pedestrian detector to a specific traffic scene.IEEE, 2011.\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.459.3309&rep=rep1&type=pdf}\\
+[12]  [M. Wang and X. Wang. Automatic adaptation of a generic
+pedestrian detector to a specific traffic scene.IEEE, 2011.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.459.3309&rep=rep1&type=pdf)
 
-[13]  H. Idrees, K. Soomro, and M. Shah. Detecting humans in
+[13]  [H. Idrees, K. Soomro, and M. Shah. Detecting humans in
 dense crowds using locally-consistent scale prior and global
-occlusion reasoning.Pattern Analysis and Machine Intelligence, 2005.\url{https://www.researchgate.net/publication/273284676_Detecting_Humans_in_Dense_Crowds_Using_Locally-Consistent_Scale_Prior_and_Global_Occlusion_Reasoning}\\
+occlusion reasoning.Pattern Analysis and Machine Intelligence, 2005.](https://www.researchgate.net/publication/273284676_Detecting_Humans_in_Dense_Crowds_Using_Locally-Consistent_Scale_Prior_and_Global_Occlusion_Reasoning)
 
-[14]  H. Idrees, I. Saleemi, C. Seibert, and M. Shah. Multi-source
+[14]  [H. Idrees, I. Saleemi, C. Seibert, and M. Shah. Multi-source
 multi-scale counting in extremely dense crowd images. In
-CVPR, IEEE, 2013.\url{http://www.eecs.ucf.edu/~haroon/datafiles/Idrees_Counting_CVPR_2013.pdf}
+CVPR, IEEE, 2013.](http://www.eecs.ucf.edu/~haroon/datafiles/Idrees_Counting_CVPR_2013.pdf)
