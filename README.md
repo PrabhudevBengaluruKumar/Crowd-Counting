@@ -4,7 +4,8 @@ Crowd counting is estimating the number of people present in a video or picture.
 
 ## The different crowd counting techniques are:
 1. Detection based methods.
-  A shaped window-like detector identifies people in a photo or video using different classification algorithms, and the number of people is counted. In order to extract low-level features, classifiers must be well trained.
+
+	A shaped window-like detector identifies people in a photo or video using different classification algorithms, and the number of people is counted. In order to extract low-level features, classifiers must be well trained.
 The algorithms used to detect faces in pictures and videos work well when there is a dense crowd present, but fail to give satisfactory results when there are dense crowds present. When working with dense crowds, it is difficult to distinguish and/or see the target features clearly.
 
 2. Regression based methods
@@ -14,23 +15,24 @@ The image is cropped into patches, and then these patches are used to extract th
 
 3. Density estimation based methods
   
-  In order to be able to localize a crowd, density-based estimation methods are used. A density map is first created for each of the objects. By traversing the images while learning the mapping between local features and object density maps, the approach focuses on the density and localization of crowded spaces. By concatenating discrete object density patches, the full density map of the overall data can be obtained. Learning non-linear maps can be accomplished using a random forest regressor.
+	In order to be able to localize a crowd, density-based estimation methods are used. A density map is first created for each of the objects. By traversing the images while learning the mapping between local features and object density maps, the approach focuses on the density and localization of crowded spaces. By concatenating discrete object density patches, the full density map of the overall data can be obtained. Learning non-linear maps can be accomplished using a random forest regressor.
 
 4. CNN based methods
 
 	A CNN based method is the most reliable method to achieve better accuracy compared to the other conventional methods. CNNs are used specifically in computer vision to deal with crowd density problems.
 
-  The CrowdNet CNN has the capability of capturing both low-level and high-level features of an image. In other words, it is a combination of deep and shallow Convolutional Network frameworks. To overcome the limitations of other counting methods, we augment the dataset with scale-invariant representations. Dense crowd counting is handled through this method, which returns density maps based on high-level semantics.
+	The CrowdNet CNN has the capability of capturing both low-level and high-level features of an image. In other words, it is a combination of deep and shallow Convolutional Network frameworks. To overcome the limitations of other counting methods, we augment the dataset with scale-invariant representations. Dense crowd counting is handled through this method, which returns density maps based on high-level semantics.
 
-  The CSRNet technique, which is used in Deep Convolutional Networks and which we are about to implement here, is used the most often when counting problems arise. The model extracts high-level features and generates high-quality density maps without increasing the complexity of the network. The front end of CSRNet is implemented using the VGG-16 technique because of its better transfer learning rate. 1/pth size of the original input size is the output size of a VGG. CSRNet also uses CSRNet-like layers of dilated convolutions.
+	The CSRNet technique, which is used in Deep Convolutional Networks and which we are about to implement here, is used the most often when counting problems arise. The model extracts high-level features and generates high-quality density maps without increasing the complexity of the network. The front end of CSRNet is implemented using the VGG-16 technique because of its better transfer learning rate. 1/pth size of the original input size is the output size of a VGG. CSRNet also uses CSRNet-like layers of dilated convolutions.
   
 ## Datasets
 Two datasets are used in this experiment namely, Mall dataset and JHU-Crowd++ dataset.
-1.Mall dataset
+
+1. Mall dataset
 - 480x640 pixels
 - 2000 images
 - Min 15 persons - max 53 persons per image
-- [Mall datasat](https://personal.ie.cuhk.edu.hk/~ccloy/downloads_mall_dataset.html)
+ 
 Reference: Loy, Chen Change, et al. "Crowd counting and profiling: Methodology and evaluation." Modeling, simulation and visual analysis of crowds. Springer, New York, NY, 2013. 347-382.
 
 2. JHU-CROWD++ dataset
@@ -38,16 +40,14 @@ Reference: Loy, Chen Change, et al. "Crowd counting and profiling: Methodology a
 - 4,372 images
 - Rich set of annotations
 - Min 50 persons - max 25791 persons per image
-- [JHU-Crowd++ dataset](http://www.crowd-counting.com/)
+
 Reference: V. A. Sindagi, R. Yasarla, en V. M. Patel, “JHU-CROWD++: Large-Scale Crowd Counting Dataset and A Benchmark Method”, Technical Report, 2020.
 
-
-### Directory details
+## Directory details
 1. Faster R-CNN folder: contains the details and code for crowd counting using detection-based method (Faster R-CNN).
 2. CSRNet folder: contains the details and code for crowd counting using CNN-based method (CSRNet).
 
-
-### Things reffered while performing this experiment:  
+## Refered Resources  
 [1] V. A. Sindagi, R. Yasarla, and V. M. Patel, “Jhu-crowd++: Large-scale crowd counting dataset and a benchmark method,” Technical Report, 2020.  
 [2] Building crowd counting model with python  
 https://www.analyticsvidhya.com/blog/2019/02/building-crowd-counting-model-python/  
@@ -68,5 +68,4 @@ https://github.com/darpan-jain/crowd-counting-using-tensorflow
 [14] Cao, X., Wang, Z., Zhao, Y., & Su, F. (2018). Scale aggregation network for accurate and efficient crowd counting. Computer Vision – ECCV 2018, 757-773. https://doi.org/10.1007/978-3-030-01228-1_45.  
 [15] Ilyas, N.; Shahzad, A.; Kim, K. Convolutional-Neural Network-Based Image Crowd Counting: Review, Categorization, Analysis, and Performance Evaluation. Sensors 2020, 20, 43. https://doi.org/10.3390/s20010043.  
 [16] Cumulative Attribute Space for Age and Crowd Density EstimationK. Chen, S. Gong, T. Xiang, and C. C. Loyin Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, 2013.  
-[17] V. Sindagi, R. Yasarla and V. Patel, "Pushing the Frontiers of Unconstrained Crowd Counting: New Dataset and Benchmark Method," 2019 IEEE/CVF International Conference on Computer Vision (ICCV), 2019, pp. 1221-1231, doi: 10.1109/ICCV.2019.00131.  
-
+[17] V. Sindagi, R. Yasarla and V. Patel, "Pushing the Frontiers of Unconstrained Crowd Counting: New Dataset and Benchmark Method," 2019 IEEE/CVF International Conference on Computer Vision (ICCV), 2019, pp. 1221-1231, doi: 10.1109/ICCV.2019.00131. 
