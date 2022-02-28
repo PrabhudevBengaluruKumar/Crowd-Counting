@@ -62,7 +62,7 @@ if __name__ == "__main__":
     threshold = 0.4
     no=1
 
-    def draw_grid(img,  color=(0, 0, 255), thickness=1):
+    def draw_grid(img,  color=(0, 0, 255), thickness=1): # function to draw grids over the images
         h, w, _ = img.shape
         rows, cols = 10,10
         dy, dx = h / rows, w / cols
