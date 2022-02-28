@@ -4,7 +4,7 @@ from torchvision import models
 
 
 class CSRNet(nn.Module):
-    """ CSRNet with vgg16 as backbone, created as per the paper: """
+    """ CSRNet with vgg16 as backbone, created as per the research paper: """
     def __init__(self) -> None:
         super(CSRNet, self).__init__()
 
