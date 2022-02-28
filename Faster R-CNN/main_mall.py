@@ -73,7 +73,7 @@ if __name__ == "__main__":
             cv2.line(img, (0, y), (w, y), color=color, thickness=thickness)
         return img
 
-#Performing croud counting and saving the images
+# Performing croud counting and then saving the images
     count_list = []
     for n in pbar(glob.glob("./data/images/mall_val/*.jpg")):
         count=0
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 print("\n\t\t\tSuccessfully saved all results!\n")
 print(len(count_list))
 
-#Saving the crow count
+# saving the crow count to a csv file
 with open('./data/test_results.csv', 'w', ) as myfile:
     wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
     for word in count_list:
