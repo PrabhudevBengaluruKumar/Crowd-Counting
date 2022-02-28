@@ -15,7 +15,7 @@ from crowdnet.train import LitCrowdNet
 
 
 def predict_density_map(img: Image.Image, model: nn.Module) -> np.ndarray:
-    """ predicts density map from image
+    """ predicts the density map from image
 
     Args:
         img (Image.Image): image
