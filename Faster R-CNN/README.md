@@ -1,9 +1,5 @@
 # Crowd-Counting
 
-CROWD COUNTING
-
-
-
 ## Introduction
 
 This folder contains the code of for crowd counting performed on JHU dataset, mall dataset and sample of other images with respect to Fast R-CNN. 
