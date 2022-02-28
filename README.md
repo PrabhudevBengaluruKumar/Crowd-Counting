@@ -2,7 +2,7 @@
 
 Crowd counting is estimating the number of people present in a video or picture. It helps perform surveillance or to count people attending a social event. Manual crowd counting is a complex task that is also time-consuming. Computer vision techniques can solve this problem by automating this counting task. In this project, we aim to perform crowd computing by making use of deep learning approaches. We use Convolutional Neural Networks (CNN) to approach this problem. As the number of people in a picture increases, the accuracy of manual crowd counting decreases. So, in addition to the traditional CNN-based object detectors, some state-of-the-art techniques like density mapping and encoder-decoder models are used to increase the model performance. The performance metrics of the models will be compared, and inferences will be drawn.
 
-## The different crowd counting techniques are.
+## The different crowd counting techniques are:
 1. Detection based methods.
   A shaped window-like detector identifies people in a photo or video using different classification algorithms, and the number of people is counted. In order to extract low-level features, classifiers must be well trained.
 The algorithms used to detect faces in pictures and videos work well when there is a dense crowd present, but fail to give satisfactory results when there are dense crowds present. When working with dense crowds, it is difficult to distinguish and/or see the target features clearly.
@@ -42,12 +42,12 @@ Reference: Loy, Chen Change, et al. "Crowd counting and profiling: Methodology a
 Reference: V. A. Sindagi, R. Yasarla, en V. M. Patel, “JHU-CROWD++: Large-Scale Crowd Counting Dataset and A Benchmark Method”, Technical Report, 2020.
 
 
-Directory details
+### Directory details
 1. Faster R-CNN folder: contains the details and code for crowd counting using detection-based method (Faster R-CNN).
 2. CSRNet folder: contains the details and code for crowd counting using CNN-based method (CSRNet).
 
 
-Things reffered while performing this experiment:  
+### Things reffered while performing this experiment:  
 [1] V. A. Sindagi, R. Yasarla, and V. M. Patel, “Jhu-crowd++: Large-scale crowd counting dataset and a benchmark method,” Technical Report, 2020.  
 [2] Building crowd counting model with python  
 https://www.analyticsvidhya.com/blog/2019/02/building-crowd-counting-model-python/  
