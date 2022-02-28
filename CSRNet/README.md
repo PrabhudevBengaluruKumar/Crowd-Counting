@@ -17,9 +17,10 @@ Library required for this experiment is:
 
 
 
-## steps for 
+## steps to run 
 
 - download and extract JHU-Crowd++ dataset into `./jhu_crowd_v2.0` path
+- Pre-trained model: [MODEL](https://drive.google.com/file/d/1YFxRZOiH3g5wOTj4vXCLxBSOqJknyuPk/view?usp=sharing)
 
 Training
 ```shell
@@ -31,4 +32,3 @@ Test
 python -m crowdnet.predict --model-path MODEL_PATH --img-path IMAGE_PATH
 ```
 
-- Pre-trained model: [MODEL](https://drive.google.com/file/d/1YFxRZOiH3g5wOTj4vXCLxBSOqJknyuPk/view?usp=sharing)
