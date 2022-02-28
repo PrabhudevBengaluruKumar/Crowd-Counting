@@ -49,7 +49,8 @@ Directory details
 
 Things reffered while performing this experiment:  
 [1] V. A. Sindagi, R. Yasarla, and V. M. Patel, “Jhu-crowd++: Large-scale crowd counting dataset and a benchmark method,” Technical Report, 2020.  
-[2] Building crowd counting model with python https://www.analyticsvidhya.com/blog/2019/02/building-crowd-counting-model-python/  
+[2] Building crowd counting model with python  
+https://www.analyticsvidhya.com/blog/2019/02/building-crowd-counting-model-python/  
 [3] Loy, Chen Change, et al. "Crowd counting and profiling: Methodology and evaluation." Modeling, simulation and visual analysis of crowds. Springer, New York, NY, 2013. 347-382.  
 [4] N. Akbar and E. C. Djamal, "Crowd Counting Using Region Convolutional Neural Networks," 2021 8th International Conference on Electrical Engineering, Computer Science and Informatics (EECSI), 2021, pp. 359-364, doi: 10.23919/EECSI53397.2021.9624288.  
 [5] V. A. Sindagi, R. Yasarla, en V. M. Patel, “Pushing the Frontiers of Unconstrained Crowd Counting: New Dataset and Benchmark Method”, arXiv [cs.CV]. 2019.  
