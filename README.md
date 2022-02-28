@@ -47,7 +47,7 @@ Reference: V. A. Sindagi, R. Yasarla, en V. M. Patel, “JHU-CROWD++: Large-Scal
 1. Faster R-CNN folder: contains the details and code for crowd counting using detection-based method (Faster R-CNN).
 2. CSRNet folder: contains the details and code for crowd counting using CNN-based method (CSRNet).
 
-## Refered Resources  
+## Refered resources  
 [1] V. A. Sindagi, R. Yasarla, and V. M. Patel, “Jhu-crowd++: Large-scale crowd counting dataset and a benchmark method,” Technical Report, 2020.  
 [2] Building crowd counting model with python  
 https://www.analyticsvidhya.com/blog/2019/02/building-crowd-counting-model-python/  
